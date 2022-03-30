@@ -60,7 +60,7 @@ equalSign.addEventListener('click', (event)=>{
 
 
 const calculate =()=>{
-    let result =''
+    let result = currentNumber;
     switch(calculationOperator){
         case "+":
             result = parseFloat(prevNumber) + parseFloat(currentNumber)
